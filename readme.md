@@ -4,7 +4,7 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 ## Online tools:
 > [stackedit](https://stackedit.io/) Testing Markdown online.
 
-## # *Index*
+## Index
 - [Headers 1 to 6 examples.](#headers)
 - [Text formats: Italic, Strong, Strikethrought.](#text-format)
 - [Horizontal Rules.](#horizontal-rule)
@@ -20,11 +20,6 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 
 - [Go to the end.](#endfile)
 
-<!--> Aditional link format:
-    
-    - [ir al chorizo](#chorizo)
--->
-
 <!-- HEADERS. -->
 ## # Headers
 # Heading 1
@@ -37,7 +32,7 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 [Back to Index.](#index)
 
 <!-- Text formats. -->
-## # Text format
+## Text format
 - Italics: *This text* is italic. _This text_ is italic.
 -  Strong: **This text** is strong. __This text__ is strong.
 -  Italics and strong: ***This text*** is italic and strong. ___This text___ is italic and strong.
@@ -45,7 +40,7 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 [Back to Index.](#index)
 
 <!-- # HORIZONTAL -->
-## # Horizontal Rule
+## Horizontal Rule
     Need to write 
         - - - 
         or 
@@ -55,7 +50,7 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 ___
 [Back to Index.](#index)
 
-## # Scape special character
+## Scape special character
     \\	    backslash
     \`  	    backtick (see also escaping backticks in code)
     \*	    asterisk
@@ -72,12 +67,12 @@ ___
     \|	    pipe (see also escaping pipe in tables)
 [Back to Index.](#index)
 
-## # Blockquote
+## Blockquote
 > This is a quote. "In at justo et quam pulvinar accumsan. Morbi non arcu accumsan, efficitur mauris et, blandit lectus. Nam arcu felis, tempor in nisl quis, tincidunt placerat arcu. Sed accumsan, orci sit amet lacinia gravida, tellus est dignissim diam, eget sollicitudin elit felis vitae tellus. Etiam lacinia urna ac bibendum lacinia. Phasellus iaculis quam et nulla volutpat scelerisque. Duis ac sem vestibulum, dapibus ligula vel, feugiat urna."
 
 [Back to Index.](#index)
 
-## # Inline code Block
+## Inline code Block
 Normally 4 spaces or ona tab
     
     In at justo et quam pulvinar accumsan. Morbi non arcu accumsan, efficitur mauris et, blandit lectus. Nam arcu felis, tempor in nisl quis, tincidunt placerat arcu. Sed accumsan, orci sit amet lacinia gravida, . 
@@ -85,7 +80,7 @@ This is a Note [^note]
 
 [Back to Index.](#index)
 
-## # Lists
+## Lists
 * Item 1
 * Item 2
 * Item 3
@@ -110,9 +105,7 @@ This is a Note [^note]
 
 [Back to Index.](#index)
 
-## # chorizo<a id="chorizo"></a>
-
-## # Tables
+## Tables
     | Name          | Email             | ID            |
     | ---           | :---:             | ---:          |
     | John Doe      | john@gmail.com    | 123           |
@@ -127,7 +120,7 @@ This is a Note [^note]
 
 [Back to Index.](#index)
 
-## # Links 
+## Links 
     - [Google](http://www.google.com "This is text over this url.")
 Result: [Google](http://www.google.com "This is text over this url.")
 
@@ -139,7 +132,7 @@ Result: [Google url again!][key]
 [Back to Index.](#index)
 
 
-## # Images
+## Images
 `![Markdown Logo](https://markdown-here.com/img/icon256.png "tal vez hay texto")`
 ![Markdown Logo](https://markdown-here.com/img/icon256.png "tal vez hay texto")
 
