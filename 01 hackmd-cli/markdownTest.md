@@ -4,9 +4,13 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 ## Online tools:
 > [stackedit](https://stackedit.io/) Testing Markdown online.
 
+---
+
 ## Index
-- [Headers 1 to 6 examples.](#headers)
-- [Text formats: Italic, Strong, Strikethrought.](#text-format)
+
+- [Commentary](#commentary)-
+- [Headers 1 to 6 examples.](#headers)-
+- [Text formats: Italic, Strong, Strikethrought.](#text-format)-
 - [Horizontal Rules.](#horizontal-rule)
 - [Scape special character.](#scape-special-character)
 - [Blockquote.](#blockquote)
@@ -20,15 +24,15 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 
 - [Go to the end.](#endfile)
 
-# Testing comments
-1. one two <!-- three -->
-2. one two <# three -->
-[](one two three)
-.comment { display :none;}
-// one two three
-{>> one two three<<}
+## Commentary
+To let a commentary in your code, follow the next structure:
+```
+<!-- This is a commentary in Markdown -->
+```
+<!-- THIS COMMENTARY IS NOT VISIBLE IN THE OUTPUT!!!. -->
 
-<!-- HEADERS. -->
+---
+
 ## # Headers
 # Heading 1
 ##  Heading 2
@@ -37,9 +41,10 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 ##### Heading 5
 ###### Heading 6
 
+
 [Back to Index.](#index)
 
-<!-- Text formats. -->
+---
 ## Text format
 - Italics: *This text* is italic. _This text_ is italic.
 -  Strong: **This text** is strong. __This text__ is strong.
@@ -47,12 +52,12 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 - Strikethrough (tachado):  ~~This text~~ is strikethrough
 [Back to Index.](#index)
 
-<!-- # HORIZONTAL -->
+---
 ## Horizontal Rule
     Need to write 
-        - - - 
+      ` - - - `
         or 
-        ___
+      `___ `
         in order to get a horizontal rule.
 - - -
 ___
